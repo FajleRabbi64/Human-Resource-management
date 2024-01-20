@@ -1,0 +1,27 @@
+.myNavBar {
+  background-color: #263238;
+  /* opacity: 0.9; */
+  padding: 0 0 0 10px !important;
+  height: 60px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.myNavBar span {
+  color: white !important;
+  font-size: 25px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.myNavBar li {
+  color: white !important;
+}
+
+.hamIcon {
+  background: #263238 !important;
+  border-color: #263238 !important;
+  color: white !important;
+}
+
+.navbar-nav{
+margin-left: 750px;
+}

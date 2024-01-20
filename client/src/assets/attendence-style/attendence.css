@@ -1,0 +1,72 @@
+.atten-container{
+    display: flex;
+}
+
+.atten-form{
+    transform: scale(1);
+    transition: transform 0.2s;
+    border-radius: 10px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-left: 200px;
+    height: 400px;
+    width: 500px;
+    box-shadow: 0px 0px 20px rgb(212, 212, 212) !important;
+}
+
+.ateen-img{
+    height: 150px;
+    width: 430px;
+}
+.atten-btn{
+    margin-top: 20px;
+    margin-left: 160px;
+    border-radius: 10px;
+    border: none;
+    background-color: navy;
+    padding: 10px;
+    color: white;
+}
+.atten-btn:hover{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(188, 188, 241);
+    padding: 10px;
+    color: rgb(15, 14, 14);
+}
+
+.clock-analog {
+    width: 200px;
+    height: 200px;
+    border: 10px solid #333;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+    background-color: #333;
+  }
+  
+  .clock-center {
+    width: 12px;
+    height: 12px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .clock-digital {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 60px;
+    color: white;
+    background-color: #333;
+  }
+  
+  .time {
+    font-weight: bold;
+
+  }
+
+  
